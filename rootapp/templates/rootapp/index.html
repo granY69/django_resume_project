@@ -1,0 +1,608 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--meta tags-->
+	<meta charset="utf-8">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<meta content="portfolio template based on HTML5" name="description">
+	<meta content="onepage, developer, resume, cv, ,personal, portfolio, personal resume, clean, modern"
+		name="keywords">
+	<meta content="Themesio" name="author">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	
+	<link rel="icon"href="{% static 'rootapp/images/fav/favicon.ico' %}">
+	<!--template title-->
+	<title>Seebi - One Page Portfolio html Template</title>
+	<!--Font Awesome css-->
+	<link href="{% static 'rootapp/css/font-awesome.min.css' %}" rel="stylesheet">
+	<!--Bootstrap css-->
+	<link href="{% static 'rootapp/css/bootstrap.min.css' %}" rel="stylesheet">
+	<!--Magnific popup css-->
+	<link href="{% static 'rootapp/css/magnific-popup.css' %}" rel="stylesheet">
+	<!--Owl carousel css-->
+	<link href="{% static 'rootapp/css/owl.carousel.css' %}" rel="stylesheet">
+	<link href="{% static 'rootapp/css/owl.theme.default.css' %}" rel="stylesheet">
+	<!--Normalizer css-->
+	<link href="{% static 'rootapp/css/normalize.css' %}" rel="stylesheet">
+	<!--Animate css-->
+	<link href="{% static 'rootapp/css/animate.css' %}" rel="stylesheet">
+	<!--Template css-->
+	<link href="{% static 'rootapp/css/style.css' %}" rel="stylesheet">
+	<!--Responsive css-->
+	<link href="{% static 'rootapp/css/responsive.css' %}" rel="stylesheet">
+</head>
+
+<body>
+	<!--preloader starts-->
+	<!-- <div class="loader_bg">
+		<div class="loader"></div>
+	</div> -->
+	<!--preloader ends-->
+	<!--navigation area starts-->
+	<header class="nav-area navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<!--main menu starts-->
+				<div class="col-md-12">
+					<div class="main-menu">
+						<div class="navbar navbar-cus">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="#">Seebi<span>.</span></a>
+								<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse"
+									type="button">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="navbar-collapse collapse">
+								<nav>
+									<ul class="nav navbar-nav navbar-right">
+										<li class="active">
+											<a class="smooth-menu" href="#home">Home</a>
+										</li>
+										<li>
+											<a class="smooth-menu" href="#about">About</a>
+										</li>
+										<li>
+											<a class="smooth-menu" href="#services">Services</a>
+										</li>
+										<li>
+											<a class="smooth-menu" href="#portfolio">Portfolio</a>
+										</li>
+										<li>
+											<a class="smooth-menu" href="#testimonial">Testimonial</a>
+										</li>
+										<li>
+											<a class="smooth-menu" href="#contact">Contact</a>
+										</li>
+										<li><a id="nav-expander" class="nav-expander"><i
+													class="fa fa-bars fa-lg white"></i></a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--main menu ends-->
+			</div>
+		</div>
+		<!-- Canvas Menu start -->
+		<nav class="right_menu_togle">
+			<div class="close-btn">
+				<span id="nav-close" class="text-center"><i class="fa fa-close"></i></span>
+			</div>
+			<div class="canvas-logo">
+				<a href="index.html"><img src="{% static 'rootapp/images/about/sidebar-avatar.jpg' %}"
+						class="img-fluid img-thumbnail d-block mx-auto avatar" alt="logo"></a>
+			</div>
+			<address>
+				<ul class="list-unstyled">
+					<li>
+						<span>Name</span>
+						<p>Seemab Yamin</p>
+					</li>
+					<li>
+						<span>Academics</span>
+						<p><a href="#0">Download CV</a></p>
+					</li>
+					<li>
+						<span>Skills</span>
+						<p>Photoshop, JavaScript, PHP, HTML/CSS, Pythonista, Django Developer</p>
+					</li>
+					<li>
+						<span>Email</span>
+						<p><a href="mailto:cbyamin806@gmail.com">cbyamin806@gmail.com</a></p>
+					</li>
+					<li>
+						<span>Address</span>
+						<p>Sanjwal Road Attock</p>
+					</li>
+					<li>
+						<span>Age</span>
+						<p>21</p>
+					</li>
+					<li>
+						<span>Date of Birth</span>
+						<p>01 April 2000</p>
+					</li>
+					<li>
+						<span>Phone</span>
+						<p><a href="tel:+923160898250">+923160898250</a></p>
+					</li>
+					<li>
+						<span>Residence</span>
+						<p>Pakistan</p>
+					</li>
+					<li>
+						<span>Freelance Status</span>
+						<p>Available</p>
+					</li>
+				</ul>
+			</address>
+			<div class="social-medias">
+				<a href="https://twitter.com/brownboy0709" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/brownboy0709/" target="_blank">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/seemab-yamin-10792b16b/" target="_blank">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/granY69" target="_blank">
+					<i class="fa fa-github"></i>
+				</a>
+				<a href="https://www.facebook.com/seebi609/" target="_blank">
+					<i class="fa fa-facebook"></i>
+				</a>
+			</div>
+		</nav>
+		<!-- Canvas Menu end -->
+	</header>
+	<!--navigation area ends-->
+	<!--slider area starts-->
+	<div id="home"></div>
+	<section class="banner-area" id="slider-area">
+		<div class="bg_overlay"></div>
+		<div class="banner-table">
+			<div class="banner-table-cell">
+				<div class="welcome-text">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h2>Seemab Yamin</h2>
+								<div class="text-affect">Designer</div>
+
+								<div class="clearfix"></div>
+								<div class="mouse-icon hidden-sm hidden-xs">
+									<div class="wheel"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Slider area ends-->
+	<!--About area starts-->
+	<section class="about-area section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-5 col-md-5">
+					<div class="about-left wow fadeInDown" data-wow-delay="0.4s">
+						<img alt="profile image" src="{% static 'rootapp/images/about/about.jpg' %}">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-7 col-md-7">
+					<div class="about-right wow fadeInDown" data-wow-delay="0.8s">
+						<h2><span>About Me</span></h2>
+						<h3><span>Hello, I am Seemab Yamin.</span></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim enim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<div class="about-text-right">
+							<div id="skills">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="skillbar" data-percent="95%">
+											<h6 class="skillbar-title">HTML / CSS</h6>
+											<h6 class="skillbar-percent">95%</h6>
+											<div class="skillbar-bar">
+												<div class="skillbar-child"></div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="skillbar" data-percent="90%">
+											<h6 class="skillbar-title">jAVASCRIPT</h6>
+											<h6 class="skillbar-percent">90%</h6>
+											<div class="skillbar-bar">
+												<div class="skillbar-child"></div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="skillbar" data-percent="85%">
+											<h6 class="skillbar-title">Django Developer</h6>
+											<h6 class="skillbar-percent">85%</h6>
+											<div class="skillbar-bar">
+												<div class="skillbar-child"></div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="skillbar" data-percent="75%">
+											<h6 class="skillbar-title">Photoshop</h6>
+											<h6 class="skillbar-percent">75%</h6>
+											<div class="skillbar-bar">
+												<div class="skillbar-child"></div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="skillbar" data-percent="70%">
+											<h6 class="skillbar-title">Pythonista</h6>
+											<h6 class="skillbar-percent">70%</h6>
+											<div class="skillbar-bar">
+												<div class="skillbar-child"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--About area ends-->
+	<!--Services area starts-->
+	<section class="services-area section-padding" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="section-header">
+						<span>Service</span>
+						<h2>Specilizing In</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services wow fadeInDown" data-wow-delay="0.2s">
+						<div class="services-icon">
+							<i class="fa fa-github"></i>
+						</div>
+						<div class="services-content">
+							<h3>Web Development</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services wow fadeInDown" data-wow-delay="0.4s">
+						<div class="services-icon">
+							<i class="fa fa-camera"></i>
+						</div>
+						<div class="services-content">
+							<h3>Photoshop</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services wow fadeInDown" data-wow-delay="0.6s">
+						<div class="services-icon">
+							<i class="fa fa-apple"></i>
+						</div>
+						<div class="services-content">
+							<h3>Web Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-4 col-md-6">
+					<div class="single-services wow fadeInDown" data-wow-delay="0.8s">
+						<div class="services-icon">
+							<i class="fa fa-area-chart"></i>
+						</div>
+						<div class="services-content">
+							<h3>App Development</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="col-lg-4 col-md-6">
+					<div class="single-services wow fadeInDown" data-wow-delay="1.0s">
+						<div class="services-icon">
+							<i class="fa fa-file-video-o"></i>
+						</div>
+						<div class="services-content">
+							<h3>Video Editing</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+						</div>
+					</div>
+				</div> -->
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services wow fadeInDown" data-wow-delay="1.2s">
+						<div class="services-icon">
+							<i class="fa fa-search-plus"></i>
+						</div>
+						<div class="services-content">
+							<h3>Pythonista</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Services area ends-->
+	<!--Portfolio area starts-->
+	<section class="portfolio-area section-padding" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="section-header">
+						<span>PORTFOLIO</span>
+						<h2>My Work</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-md-6 col-lg-4">
+					<div class="gallery-items wow fadeInLeft" data-wow-delay="0.2s">
+						<a class="view img" href="{% static 'rootapp/images/portfolio/1.jpg' %}">
+							<!--edit image-->
+							<img alt="portfolio image" src="{% static 'rootapp/images/portfolio/small/1.jpg' %}">
+						</a>
+						<div class="gallery-text">
+							<h2>Pythonista</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6 col-lg-4">
+					<div class="gallery-items wow fadeInDown" data-wow-delay="0.4s">
+						<a class="view img" href="{% static 'rootapp/images/portfolio/2.jpg' %}">
+							<!--edit image-->
+							<img alt="portfolio image" src="{% static 'rootapp/images/portfolio/small/2.jpg' %}">
+						</a>
+						<div class="gallery-text">
+							<h2>Web Development</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6 col-lg-4">
+					<div class="gallery-items wow fadeInRight" data-wow-delay="0.6s">
+						<a class="view img" href="{% static 'rootapp/images/portfolio/3.jpg' %}">
+							<!--edit image-->
+							<img alt="portfolio image" src="{% static 'rootapp/images/portfolio/small/3.jpg' %}">
+						</a>
+						<div class="gallery-text">
+							<h2>Django</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6 col-lg-4">
+					<div class="gallery-items wow fadeInDown" data-wow-delay="1s">
+						<a class="view img" href="{% static 'rootapp/images/portfolio/4.jpg' %}">
+							<!--edit image here-->
+							<img alt="portfolio image" src="{% static 'rootapp/images/portfolio/small/4.jpg' %}">
+						</a>
+						<div class="gallery-text">
+							<h2>Machine Learning</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Portfolio area ends-->
+	<!--Testimonial Area Starts-->
+	<section class="testimonial-area section-padding" id="testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="section-header">
+						<span>TESTIMONIAL</span>
+						<h2>Client Say</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="client-testimonial-carousel owl-carousel">
+						<div class="single-testimonial-item">
+							<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam molestiae
+								mollitia "</p>
+							<div class="client-info">
+								<div class="img-box">
+									<img src="{% static 'rootapp/images/testimonial/client.jpg' %}" alt="">
+								</div>
+								<div class="client-data">
+									<h3>Hobbs</h3>
+									<h4>Agent</h4>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-item">
+							<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam molestiae
+								mollitia "</p>
+							<div class="client-info">
+								<div class="img-box">
+									<img src="{% static 'rootapp/images/testimonial/client.jpg' %}" alt="">
+								</div>
+								<div class="client-data">
+									<h3>Double Shaw</h3>
+									<h4>Conman</h4>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-item">
+							<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam molestiae
+								mollitia "</p>
+							<div class="client-info">
+								<div class="img-box">
+									<img src="{% static 'rootapp/images/testimonial/client.jpg' %}" alt="">
+								</div>
+								<div class="client-data">
+									<h3>Samo</h3>
+									<h4>Entertainer</h4>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-item">
+							<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam molestiae
+								mollitia "</p>
+							<div class="client-info">
+								<div class="img-box">
+									<img src="{% static 'rootapp/images/testimonial/client.jpg' %}" alt="">
+								</div>
+								<div class="client-data">
+									<h3>Dome</h3>
+									<h4>Car Dealer</h4>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-item">
+							<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam molestiae
+								mollitia "</p>
+							<div class="client-info">
+								<div class="img-box">
+									<img src="{% static 'rootapp/images/testimonial/client.jpg' %}" alt="">
+								</div>
+								<div class="client-data">
+									<h3>Shaw</h3>
+									<h4>Mercinary</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Testimonial Area Ends-->
+	<!--contact area starts-->
+	<section class="contact-area section-padding" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="section-header">
+						<span>CONTACT</span>
+						<h2>Hire me</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 left-contact">
+					<div class="address wow fadeInLeft" data-wow-delay="0.2s">
+						<a href="#">
+							<i class="fa-fw fa fa-map-marker"></i>
+							<span>Locate us</span>
+							<p>Sanjwal Road Attock</p>
+						</a>
+					</div>
+					<div class="address wow fadeInUp" data-wow-delay="0.2s">
+						<a href="#">
+							<i class="fa-fw fa fa-phone"></i>
+							<span>Give us a call</span>
+							<p>Office: +01-2345-6789</p>
+						</a>
+					</div>
+					<div class="address wow fadeInRight" data-wow-delay="0.2s">
+						<a href="#">
+							<i class="fa-fw fa fa-envelope-o"></i>
+							<span>Get in online</span>
+							<p>seebi@example.com</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 box-contact-form">
+					<form action="#" id="contact-form" method="post" name="contact-form">
+						<div class="messages"></div>
+						<div class="controls">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input id="form_name" name="name" placeholder="Enter your full name *"
+											required="required" type="text">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input id="form_email" name="email" placeholder="Enter your email *"
+											required="required" type="email">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea id="form_message" name="message" placeholder="Your Message *"
+											required="required" rows="4"></textarea>
+
+									</div>
+								</div>
+								<div class="col-md-12">
+									<button class="btn btn-send" value="">Send message</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--contact area ends-->
+	<!--Footer Area Starts-->
+	<section class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+					<p> Time Never Stays The Same - So don't stop.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Footer Area Ends-->
+
+	<script src="{% static 'rootapp/js/jquery-3.2.1.min.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/bootstrap.min.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/jquery.magnific-popup.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/owl.carousel.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/wow.min.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/typed.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/jquery.ripples-min.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/jquery.waypoints.js' %}"></script>
+
+	<script src="{% static 'rootapp/js/validator.js' %}"></script>
+
+	<!-- <script src="{% static 'rootapp/js/contact.js' %}"></script> -->
+
+	<script src="{% static 'rootapp/js/main.js' %}"></script>
+
+</body>
+
+</html>
